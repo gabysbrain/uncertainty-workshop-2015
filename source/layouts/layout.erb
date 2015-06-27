@@ -1,20 +1,72 @@
 <!doctype html>
 <html>
   <head>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <meta charset="utf-8">
-    <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Use title if it's in the page YAML frontmatter -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title>
+      <%= current_page.data.title || "Visualization for decision making under uncertainty" %>
+    </title>
 
-    <link href='//fonts.googleapis.com/css?family=Lato:300,400' rel='stylesheet' type='text/css'>
-
-    <%= stylesheet_link_tag :site %>
-    <%= javascript_include_tag :all %>
+    <%= stylesheet_link_tag 'site' %>
+    <%= javascript_include_tag 'all' %>
   </head>
-
-  <body class="<%= page_classes %>">
-    <%= yield %>
+  <body>
+    <header>
+      <%= partial "nav" %>
+      <div class="banner">
+        <%= partial "carousel" %>
+        <div class="caption">
+          A workshop at the 
+          <%= link_to 'IEEE VIS 2015 conference', 'http://ieeevis.org/year/2015/' %>
+          on October 25, 2015 in Chicago, IL USA
+        </div>
+      </div>
+    </header>
+    <section class="sidebar">
+      <div>
+        Located at
+        <% link_to 'http://ieeevis.org/year/2015' do %>
+          <%= image_tag '/images/vis2015_logo.png', width: '200px' %>
+        <% end %>
+      <div>
+        <h1>Important dates</h1>
+        <ul class="important-list">
+          <li>???: Paper submission due</li>
+          <li>???: First notification</li>
+          <li>???: Revisions due</li>
+          <li>???: Final notification</li>
+          <li>???: Camera-ready version due</li>
+          <li>???: Paper submission due</li>
+          <li>
+            <strong>???: Uncertainty workshop (1-day)</strong>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <h1>Organizers</h1>
+        <ul class="important-list">
+          <li><%= link_to 'Kristi Potter', '' %>: University of Oregon</li>
+          <li><%= link_to 'Rüdiger Westermann', '' %>: TU München</li>
+          <li><%= link_to 'Christoph Heinzl', '' %>: FH - Oberösterreich</li>
+          <li><%= link_to 'Mike Kirby', '' %>: SCI Institute</li>
+          <li><%= link_to 'Ross Whitaker', '' %>: SCI Institute</li>
+          <li><%= link_to 'Eduard Gröller', '' %>: Technische Universität Wien</li>
+          <li><%= link_to 'Torsten Möller', '' %>: Universität Wien</li>
+          <li><%= link_to 'Stefan Bruckner', '' %>: University of Bergen</li>
+        </ul>
+      </div>
+      <div>
+        <h1>Contact</h1>
+        <%= mail_to 'fake@gmail.com', '???' %>
+    </section>
+    <section class="main" id="main">
+      <%=yield%>
+    </section>
+    <footer>
+      <!-- nothing here yet -->
+    </footer>
   </body>
 </html>
+

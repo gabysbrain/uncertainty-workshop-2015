@@ -1,0 +1,23 @@
+
+.sidebar {
+  img {
+    vertical-align: top;
+  }
+
+  div {
+    &:not(:first-child) {
+      margin-top: 0.75em;
+    }
+  }
+
+  h1 {
+    font-size: $h2-font-size;
+    margin-bottom: 0.25em;
+  }
+}
+
+ul.important-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+

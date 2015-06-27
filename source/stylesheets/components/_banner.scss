@@ -1,0 +1,37 @@
+
+@import "slick.js/slick.scss";
+@import "slick.js/slick-theme.scss";
+
+.banner {
+  position: relative;
+
+  .carousel {
+    img {
+      height: em(250);
+    }
+  }
+  
+  .caption {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-color: black;
+    color: white;
+    opacity: 0.7;
+    filter:alpha(opacity=70); /* IE opacity */
+    padding-left: em(10);
+    padding-right: em(10);
+    font-size: 1.1em;
+    //width: 100%;
+
+    a {
+      color: white;
+    }
+  }
+}
+
+.slick-slide {
+  margin-left: $small-spacing;
+  margin-right: $small-spacing;
+}
+

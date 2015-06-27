@@ -1,0 +1,27 @@
+
+body {
+  @include outer-container;
+}
+
+header.navigation {
+  @include span-columns(12);
+}
+
+.banner-image {
+  @include span-columns(12);
+}
+
+section.sidebar {
+  @include span-columns(4);
+  @include shift(8);
+}
+
+section.main {
+  @include span-columns(8);
+  @include shift(-12);
+}
+
+footer {
+  @include span-columns(12);
+}
+

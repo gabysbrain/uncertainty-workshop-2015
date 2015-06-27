@@ -9,6 +9,13 @@ page '/*.xml', layout: false
 page '/*.json', layout: false
 page '/*.txt', layout: false
 
+# standard layouts
+page '/*.html', layout: 'page'
+page '/index.html', layout: 'news'
+
+# pretty URLs
+activate :directory_indexes
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 
@@ -21,9 +28,12 @@ page '/*.txt', layout: false
 ###
 
 # Reload the browser automatically whenever files change
-# configure :development do
-#   activate :livereload
-# end
+configure :development do
+  activate :livereload, :host => '127.0.0.1'
+end
+
+# markdown processor
+set :markdown_engine, :redcarpet
 
 # Methods defined in the helpers block are available in templates
 # helpers do
@@ -32,7 +42,6 @@ page '/*.txt', layout: false
 #   end
 # end
 
-activate :livereload
 
 # Build-specific configuration
 configure :build do
