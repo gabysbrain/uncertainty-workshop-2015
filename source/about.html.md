@@ -1,5 +1,4 @@
 
-# 2105 workshop on visualization for decision making under uncertainty
 
 The goal of this full-day workshop is to call on the research community to
 discuss the state-of-the-art and research challenges for supporting modeling
