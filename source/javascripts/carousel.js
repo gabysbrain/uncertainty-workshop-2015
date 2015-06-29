@@ -9,7 +9,7 @@ $(document).ready(function () {
     dots: true,
     initialSlide: Math.floor(Math.random() * numImgs),
     slidesToShow: 1,
-    centerMode: true,
+    //centerMode: true,
     variableWidth: true
   });
 });
