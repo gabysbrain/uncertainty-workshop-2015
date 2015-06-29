@@ -33,6 +33,8 @@
         <% link_to 'http://ieeevis.org/year/2015' do %>
           <%= image_tag '/images/vis2015_logo.png', width: '200px' %>
         <% end %>
+      </div>
+      <!--
       <div>
         <h1>Important dates</h1>
         <ul class="important-list">
@@ -46,6 +48,7 @@
           </li>
         </ul>
       </div>
+      -->
       <div>
         <h1>Organizers</h1>
         <ul class="important-list">
@@ -59,9 +62,12 @@
           <li><%= link_to 'Stefan Bruckner', 'http://www.ii.uib.no/vis/team/bruckner/' %>: University of Bergen</li>
         </ul>
       </div>
+      <!--
       <div>
         <h1>Contact</h1>
         <%= mail_to 'fake@gmail.com', '???' %>
+      </div>
+      -->
     </section>
     <section class="main" id="main">
       <%=yield%>

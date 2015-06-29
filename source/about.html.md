@@ -9,23 +9,6 @@ the workshop.
 
 # Motivation
 
-As a team, we first came together to create the IEEE VisWeek 2012 Tutorial on
-Uncertainty and Parameter Space Analysis in Visualization. The goal of this
-tutorial was to introduce participants to the state of the art in uncertainty
-and parameter space visualization and to encourage skepticism in blind
-acceptance of data and algorithms. Each of the organizers gave talks on their
-respective expertise, ranging from the history of uncertainty visualization,
-modeling and statistics, parameter space analysis and industrial domains. As a
-result of the tutorial, our group began a series of meetings to discuss
-issues related to uncertainty and parameter space, and our view of uncertainty
-visualization expanded from simple ensemble analysis to a broader workflow.
-We learned the key pipeline that is ubiquitous in computational and data
-sciences includes model building, model usage, and decision making and the
-entire pipeline must be considered when developing visual tools. We hope the
-proposed workshop will serve as a forum for our group to convey what we have
-learned in these meetings, as well as bring outside perspective into the
-discussion.
-
 The goals of this workshop are three-fold: a) to identify what methods and
 techniques have been successfully deployed into application domains, b) to
 understand when and why methods have failed or are not in use, c) to broaden
@@ -44,21 +27,6 @@ Additional challenges lie in the sensitivity analysis (SA) of the models and
 both UA and SA are essential components to the decision making process. Other
 aspects of the decision making process include trading off multiple objectives
 as well as ranking of multiple possible solutions.
-
-To better understand the issues relating to uncertainty and parameter space,
-we must first survey what has been done, to date, to successfully handle the
-expression of uncertainty in practical applications. We believe the best way
-to assess this is to invite workshop participants to join in the conversation
-by presenting their successes and failures and bring in domain experts to help
-us understand how we, as visualization experts, can best address their needs.
-
-The technical scope of this workshop will be determined by the accepted
-short-papers, however our invited domain speakers will ensure an alternative
-perspective to the problem. We will particularly target the inclusion of all
-visualization participants to encourage greater communication between the
-subfields. Specifically, work in decision making, cognition and perception, and
-model building will be requested since understanding in these areas is fun-
-damental in progressing the state of the art.
 
 # Planned activities
 
