@@ -63,7 +63,8 @@
     min-height: $navigation-height;
     z-index: 9999999;
     @include media ($horizontal-bar-mode) {
-      float: right;
+      //float: right;
+      padding-left: 3em;
       margin-bottom: 1em;
     }
   }

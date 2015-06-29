@@ -2,6 +2,17 @@
 @import "slick.js/slick.scss";
 @import "slick.js/slick-theme.scss";
 
+// need to fix fonts and background images
+.slick-loading .slick-list {
+  background: #fff image-url("slick.js/slick/ajax-loader.gif") center center no-repeat;
+}
+@include font-face("slick", "/fonts/slick.js/slick/fonts/slick",
+                   $file-formats: eot woff truetype);
+
+.slick-dots {
+  bottom: -1.5em;
+}
+
 .banner {
   position: relative;
 
@@ -21,7 +32,8 @@
     filter:alpha(opacity=90); /* IE opacity */
     padding-left: em(10);
     padding-right: em(10);
-
+    box-shadow: 0 2px 4px darken($base-background-color, 10%);
+    border-radius: 0px 3px 3px 0px;
 
     h1 {
       font-size: 1.8em;
