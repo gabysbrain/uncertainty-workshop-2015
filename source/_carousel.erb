@@ -1,12 +1,15 @@
 
 <div class="carousel">
-  <% images = sitemap.resources.select do |resource| 
-       resource.path.start_with?('images/banner/')
-     end 
-   %>
-
-  <% images.each do |image| %>
-    <div><%= image_tag image.path %></div>
+  <% data.banner.each do |img| %>
+    <div>
+      <% link_to img.url do %>
+        <%= image_tag "/images/banner/#{img.path}" %>
+        <div class="description">
+          <h1><%= img.name %><h1>
+          <h2><%= img.citation %></h2>
+        </div>
+      <% end %>
+    </div>
   <% end %>
 </div>
 

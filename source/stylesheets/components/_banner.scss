@@ -10,28 +10,81 @@
       height: em(250);
     }
   }
-  
+
   .caption {
     position: absolute;
     bottom: 0px;
     left: 0px;
     background-color: black;
     color: white;
-    opacity: 0.7;
-    filter:alpha(opacity=70); /* IE opacity */
+    opacity: 0.9;
+    filter:alpha(opacity=90); /* IE opacity */
     padding-left: em(10);
     padding-right: em(10);
-    font-size: 1.1em;
-    //width: 100%;
+
+
+    h1 {
+      font-size: 1.8em;
+    }
+    h2 {
+      font-size: 1.1em;
+    }
 
     a {
       color: white;
     }
   }
+
+  // Fancy hovering, link clicking banner
+  &:hover {
+    .caption {
+      display: none;
+      @include transition(all 0.2s ease-in-out);
+    }
+  }
+  
 }
 
 .slick-slide {
   margin-left: $small-spacing;
   margin-right: $small-spacing;
+  position: relative;
+  border-radius: 3px;
+  border: 1px solid $base-background-color;
+
+  .description {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    color: $base-font-color;
+    background-color: lighten(gainsboro, 10%);
+    opacity: 0.9;
+    filter:alpha(opacity=90); /* IE opacity */
+    width: 100%;
+    padding: 5px;
+    display: none; // hide by default
+
+    h1 {
+      font-weight: bold;
+      font-size: 1.2em;
+    }
+
+    h2 {
+      font-size: 0.8em;
+    }
+  }
+
+  &:hover {
+    border-color: gainsboro;
+    box-shadow: 0 2px 4px darken($base-background-color, 10%);
+    .description {
+      display: block;
+    }
+    @include transition(all 0.2s ease-in-out);
+
+    //h1, h2 {
+      //display: block;
+    //}
+  }
 }
 

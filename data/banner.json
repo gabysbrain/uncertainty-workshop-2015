@@ -1,0 +1,28 @@
+
+[
+  {
+    "path": "contour_boxplot.jpg",
+    "name": "Contour boxplot",
+    "citation": "Whitaker, Mirzargar, and Kirby 2013",
+    "url":  "http://dx.doi.org/10.1109/TVCG.2013.143"
+  },
+  {
+    "path": "pmc.png",
+    "name": "Probabalistic marching cubes",
+    "citation": "Pöthkow, Weber, and Hege 2011",
+    "url":  "http://dx.doi.org/10.1111/j.1467-8659.2011.01942.x"
+  },
+  {
+    "path": "tuner.png",
+    "name": "Tuner",
+    "citation": "Torsney-Weir et al. 2011",
+    "url":  "http://dx.doi.org/10.1109/TVCG.2011.248"
+  },
+  {
+    "path": "vismon.png",
+    "name": "Vismon",
+    "citation": "Booshehrian et al. 2012",
+    "url":  "http://dx.doi.org/10.1111/j.1467-8659.2012.03116.x"
+  }
+]
+
