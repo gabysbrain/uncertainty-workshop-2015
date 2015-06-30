@@ -35,6 +35,9 @@ end
 # markdown processor
 set :markdown_engine, :redcarpet
 
+# generate thumbnail images
+activate :middleman_simple_thumbnailer
+
 # Methods defined in the helpers block are available in templates
 # helpers do
 #   def some_helper

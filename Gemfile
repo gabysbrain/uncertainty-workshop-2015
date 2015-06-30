@@ -12,6 +12,7 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 gem "middleman"
 gem 'middleman-livereload'
 gem "middleman-imageoptim"
+gem "middleman-simple-thumbnailer"
 
 # mm 4 gems
 #gem 'middleman-core'

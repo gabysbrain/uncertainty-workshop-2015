@@ -3,7 +3,7 @@
   <% data.banner.each do |img| %>
     <div>
       <% link_to img.url do %>
-        <%= image_tag "/images/banner/#{img.path}" %>
+        <%= image_tag "/images/banner/#{img.path}", resize_to: 'x250' %>
         <div class="description">
           <h1><%= img.name %><h1>
           <h2><%= img.citation %></h2>
