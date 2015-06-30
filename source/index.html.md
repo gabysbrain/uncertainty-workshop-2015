@@ -20,11 +20,9 @@ application-oriented perspective.
 
 # News
 
-<!--
 ## Call for papers
 
-We're calling for papers!!!
--->
+The [call for papers](/cfp.html) is out now!
 
 ## Workshop announced!
 
