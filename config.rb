@@ -42,9 +42,11 @@ set :markdown_engine, :redcarpet
 #   end
 # end
 
-
 # Build-specific configuration
 configure :build do
+  set :relative_links, true
+  activate :relative_assets
+
   # Minify CSS on build
   # activate :minify_css
 
