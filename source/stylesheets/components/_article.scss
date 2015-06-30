@@ -29,4 +29,14 @@ article {
   h6 {
     font-size: $h6-font-size;
   }
+
+  p,ul {
+    margin: 0 0 1em;
+  }
+
+  ul {
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+
 }
