@@ -23,6 +23,24 @@
     "name": "Vismon",
     "citation": "Booshehrian et al. 2012",
     "url":  "http://dx.doi.org/10.1111/j.1467-8659.2012.03116.x"
+  },
+  {
+    "path": "uncertainty_stats.png",
+    "name": "Visualizing summary statistics and uncertainty",
+    "citation": "Potter et al. 2010",
+    "url": "http://dx.doi.org/10.1111/j.1467-8659.2009.01677.x"
+  },
+  {
+    "path": "fluid_explorer.jpg",
+    "name": "FluidExplorer",
+    "citation": "Bruckner and Möller 2010",
+    "url": "http://dx.doi.org/10.1109/TVCG.2010.190"
+  },
+  {
+    "path": "berger.png",
+    "name": "Uncertainty-aware exploration of continuous parameter spaces using multivariate prediction",
+    "citation": "Berger et al. 2011",
+    "url": "http://dx.doi.org/10.1111/j.1467-8659.2011.01940.x"
   }
 ]
 
