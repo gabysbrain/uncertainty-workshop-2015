@@ -11,6 +11,8 @@ gem 'tzinfo-data', platforms: [:mswin, :mingw, :jruby]
 # Middleman Gems
 gem "middleman"
 gem 'middleman-livereload'
+gem "middleman-imageoptim"
+
 # mm 4 gems
 #gem 'middleman-core'
 #gem 'middleman-cli'
