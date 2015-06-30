@@ -42,6 +42,8 @@ GEM
     execjs (2.5.2)
     exifr (1.2.3)
     ffi (1.9.9)
+    font-awesome-sass (4.3.2.1)
+      sass (~> 3.2)
     fspath (2.1.1)
     haml (4.0.6)
       tilt
@@ -161,6 +163,7 @@ PLATFORMS
 DEPENDENCIES
   bitters
   bourbon
+  font-awesome-sass
   middleman
   middleman-imageoptim
   middleman-livereload
