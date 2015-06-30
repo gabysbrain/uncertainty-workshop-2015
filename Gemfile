@@ -27,9 +27,6 @@ gem 'bourbon'
 gem 'neat'
 gem 'bitters'
 
-# fontaawesome!
-gem "font-awesome-sass"
-
 # bower assets
 source 'https://rails-assets.org' do
   gem "rails-assets-jquery"

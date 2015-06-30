@@ -1,8 +1,6 @@
 
 @import "slick.js/slick.scss";
 @import "slick.js/slick-theme.scss";
-@import "font-awesome-sprockets";
-@import "font-awesome";
 
 // need to fix fonts and background images
 .slick-loading .slick-list {
@@ -13,44 +11,6 @@
 
 .slick-dots {
   bottom: -1.5em;
-}
-
-.slick-prev, .slick-next { 
-  &:before {
-    @extend .fa;
-    font-size: 30px;
-    line-height: 1; 
-    color: black; 
-    opacity: 0.5; 
-    -webkit-font-smoothing: 
-    antialiased; 
-    -moz-osx-font-smoothing: grayscale;
-  }
-
-  width: auto;
-  height: auto;
-}   
-
-.slick-prev {
-  &:before { 
-    @extend .fa-arrow-circle-o-left;
-  }
-  
-  left: -25px;
-}
-[dir="rtl"] .slick-prev:before { 
-  @extend .fa-arrow-circle-o-right;
-}
-
-.slick-next {
-  &:before { 
-    @extend .fa-arrow-circle-o-right;
-  }
-  
-  right: -30px;
-}
-[dir="rtl"] .slick-next:before {
-  @extend .fa-arrow-circle-o-left;
 }
 
 .banner {
