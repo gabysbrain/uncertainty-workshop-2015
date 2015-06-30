@@ -21,4 +21,5 @@
 
 [Stefan Bruckner](http://www.ii.uib.no/vis/team/bruckner/)
 
+[Thomas Torsney-Weir](http://www.tomtorsneyweir.com)
 
