@@ -16,6 +16,12 @@ page '/index.html', layout: 'news'
 # pretty URLs
 activate :directory_indexes
 
+# Google analytics
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-64813066-1'
+end
+
+
 # With alternative layout
 # page "/path/to/file.html", layout: :otherlayout
 

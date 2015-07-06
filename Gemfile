@@ -13,6 +13,7 @@ gem "middleman"
 gem 'middleman-livereload'
 gem "middleman-imageoptim"
 gem "middleman-simple-thumbnailer"
+gem "middleman-google-analytics"
 
 # mm 4 gems
 #gem 'middleman-core'
