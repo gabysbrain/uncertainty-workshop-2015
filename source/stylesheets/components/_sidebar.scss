@@ -1,5 +1,11 @@
 
 .sidebar {
+  #vis-logo {
+    @include media($phone-screen) {
+      display: none;
+    }
+  }
+
   img {
     vertical-align: top;
   }
