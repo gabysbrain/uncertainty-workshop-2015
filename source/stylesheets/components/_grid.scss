@@ -12,13 +12,17 @@ header.navigation {
 }
 
 section.sidebar {
-  @include span-columns(4);
-  @include shift(8);
+  @include media($medium-screen-up) {
+    @include span-columns(4);
+    @include shift(8);
+  }
 }
 
 section.main {
-  @include span-columns(8);
-  @include shift(-12);
+  @include media($medium-screen-up) {
+    @include span-columns(8);
+    @include shift(-12);
+  }
 }
 
 footer {
