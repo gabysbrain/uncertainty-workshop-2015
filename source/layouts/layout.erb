@@ -42,15 +42,11 @@
       <div>
         <h1>Organizers</h1>
         <ul class="important-list">
-          <li><%= link_to 'Kristi Potter', 'http://pages.uoregon.edu/kpotter/index.html' %>: University of Oregon</li>
-          <li><%= link_to 'Rüdiger Westermann', 'https://wwwcg.in.tum.de/group/persons/westermann.html' %>: TU München</li>
-          <li><%= link_to 'Christoph Heinzl', 'http://research.fh-ooe.at/en/staff/4794' %>: FH - Oberösterreich</li>
-          <li><%= link_to 'Mike Kirby', 'http://www.cs.utah.edu/~kirby/' %>: SCI Institute</li>
-          <li><%= link_to 'Ross Whitaker', 'http://www.cs.utah.edu/~whitaker/' %>: SCI Institute</li>
-          <li><%= link_to 'Eduard Gröller', 'https://www.cg.tuwien.ac.at/staff/EduardGroeller.html' %>: Technische Universität Wien</li>
-          <li><%= link_to 'Torsten Möller', 'http://cs.univie.ac.at/vda/team/worker/infpers/torsten_möller' %>: Universität Wien</li>
-          <li><%= link_to 'Stefan Bruckner', 'http://www.ii.uib.no/vis/team/bruckner/' %>: University of Bergen</li>
-          <li><%= link_to 'Thomas Torsney-Weir', 'http://www.tomtorsneyweir.com' %>: Universität Wien</li>
+          <% data.organizers.each do |o| %>
+            <li>
+              <%= link_to o.name, o.url %>: <%= o.uni %>
+            </li>
+          <% end %>
         </ul>
       </div>
       <div>
