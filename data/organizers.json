@@ -5,21 +5,21 @@
     "logo": "oregon.png",
     "uni": "University of Oregon",
     "url": "http://pages.uoregon.edu/kpotter/index.html",
-    "uniUrl": ""
+    "uniUrl": "https://uoregon.edu/"
   },
   {
     "name": "Rüdiger Westermann",
     "logo": "tu_munich.png",
     "uni": "TU München",
     "url": "https://wwwcg.in.tum.de/group/persons/westermann.html",
-    "uniUrl": ""
+    "uniUrl": "https://www.tum.de/"
   },
   {
     "name": "Christoph Heinzl",
     "logo": "fhoe.jpg",
     "uni": "FH - Oberösterreich",
     "url": "http://research.fh-ooe.at/en/staff/4794",
-    "uniUrl": ""
+    "uniUrl": "http://www.fh-ooe.at/"
   },
   {
     "name": "Mike Kirby",
@@ -40,28 +40,28 @@
     "logo": "tu_wien.png",
     "uni": "Technische Universität Wien",
     "url": "https://www.cg.tuwien.ac.at/staff/EduardGroeller.html",
-    "uniUrl": ""
+    "uniUrl": "https://www.tuwien.ac.at/"
   },
   {
     "name": "Torsten Möller",
     "logo": "uniwien.png",
     "uni": "Universität Wien",
     "url": "http://cs.univie.ac.at/vda/team/worker/infpers/torsten_m%C3%B6ller",
-    "uniUrl": ""
+    "uniUrl": "https://www.univie.ac.at/"
   },
   {
     "name": "Stefan Bruckner",
     "logo": "bergen.png",
     "uni": "University of Bergen",
     "url": "http://www.ii.uib.no/vis/team/bruckner/",
-    "uniUrl": ""
+    "uniUrl": "http://www.uib.no/"
   },
   {
     "name": "Thomas Torsney-Weir",
     "logo": "uniwien.png",
     "uni": "Universität Wien",
     "url": "http://www.tomtorsneyweir.com",
-    "uniUrl": ""
+    "uniUrl": "https://www.univie.ac.at/"
   }
 
 
