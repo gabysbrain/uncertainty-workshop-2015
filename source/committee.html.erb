@@ -1,0 +1,19 @@
+
+<!--
+# Program committee
+-->
+
+<h1>Workshop organizers</h1>
+
+<ul class="organizer-list">
+
+<% data.organizers.each do |o| %>
+  <li>
+    <%= link_to o.name, o.url %>
+    <% link_to o.uniUrl do %>
+      <%= image_tag "/images/logos/#{o.logo}", resize_to: 'x32' %>
+    <% end %>
+  </li>
+<% end %>
+</ul>
+

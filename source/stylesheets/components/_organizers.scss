@@ -1,0 +1,24 @@
+
+.organizer-list {
+  display: table;
+
+  li {
+    display: table-row;
+
+    & > * {
+      display: table-cell;
+      padding-bottom: 1em;
+
+      // This might need to be adjusted with more columns...
+      &:first-child {
+        vertical-align: middle;
+      }
+
+      &:nth-child(2) {
+        padding-left: 1em;
+        height: 3em;
+      }
+    }
+  }
+}
+

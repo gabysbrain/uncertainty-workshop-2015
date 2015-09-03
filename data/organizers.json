@@ -1,0 +1,68 @@
+
+[
+  {
+    "name": "Kristi Potter",
+    "logo": "oregon.png",
+    "uni": "University of Oregon",
+    "url": "http://pages.uoregon.edu/kpotter/index.html",
+    "uniUrl": ""
+  },
+  {
+    "name": "Rüdiger Westermann",
+    "logo": "tu_munich.png",
+    "uni": "TU München",
+    "url": "https://wwwcg.in.tum.de/group/persons/westermann.html",
+    "uniUrl": ""
+  },
+  {
+    "name": "Christoph Heinzl",
+    "logo": "fhoe.jpg",
+    "uni": "FH - Oberösterreich",
+    "url": "http://research.fh-ooe.at/en/staff/4794",
+    "uniUrl": ""
+  },
+  {
+    "name": "Mike Kirby",
+    "logo": "utah.png",
+    "uni": "SCI Institute",
+    "url": "http://www.cs.utah.edu/~kirby/",
+    "uniUrl": "https://www.sci.utah.edu"
+  },
+  {
+    "name": "Ross Whitaker",
+    "logo": "utah.png",
+    "uni": "SCI Institute",
+    "url": "http://www.cs.utah.edu/~whitaker/",
+    "uniUrl": "https://www.sci.utah.edu"
+  },
+  {
+    "name": "Eduard Gröller",
+    "logo": "tu_wien.png",
+    "uni": "Technische Universität Wien",
+    "url": "https://www.cg.tuwien.ac.at/staff/EduardGroeller.html",
+    "uniUrl": ""
+  },
+  {
+    "name": "Torsten Möller",
+    "logo": "uniwien.png",
+    "uni": "Universität Wien",
+    "url": "http://cs.univie.ac.at/vda/team/worker/infpers/torsten_m%C3%B6ller",
+    "uniUrl": ""
+  },
+  {
+    "name": "Stefan Bruckner",
+    "logo": "bergen.png",
+    "uni": "University of Bergen",
+    "url": "http://www.ii.uib.no/vis/team/bruckner/",
+    "uniUrl": ""
+  },
+  {
+    "name": "Thomas Torsney-Weir",
+    "logo": "uniwien.png",
+    "uni": "Universität Wien",
+    "url": "http://www.tomtorsneyweir.com",
+    "uniUrl": ""
+  }
+
+
+]
