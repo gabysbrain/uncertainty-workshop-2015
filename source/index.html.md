@@ -20,6 +20,10 @@ application-oriented perspective.
 
 # News
 
+## Schedule posted
+
+The [schedule](/schedule.html) of talks is posted!
+
 ## Call for papers
 
 The [call for papers](/cfp.html) is out now!
