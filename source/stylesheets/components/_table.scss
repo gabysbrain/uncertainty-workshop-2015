@@ -1,0 +1,106 @@
+
+
+table {
+  @include font-feature-settings("kern", "liga", "tnum");
+  margin: $small-spacing 0;
+  table-layout: fixed;
+  width: 100%;
+  min-width: 300px; // adjust to your needs
+  
+  // This way accessibility/screen readers can still read the header
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+    @include media($medium-screen-up) {
+      position: static;
+    }
+
+    border-bottom: 1px solid darken($base-border-color, 15%);
+  }
+
+  tbody tr {
+    @include media($medium-screen-up) {
+      border-top: $base-border;
+      border-bottom: $base-border;
+    }
+
+    border-top: 1px solid darken($base-border-color, 15%);
+    border-bottom: 1px solid darken($base-border-color, 15%);
+  }
+  
+  td {
+    display: block; 
+    padding: $small-spacing 0;
+    vertical-align: top;
+    
+    &:first-child {
+      padding-top: .5em;
+    }
+    &:last-child {
+      padding-bottom: .5em;
+    }
+
+    &:before {
+      content: attr(data-th)": "; // there's a js that sets this
+      font-weight: bold;
+
+      // optional stuff to make it look nicer
+      width: 6.5em; // magic number :( adjust according to your own content
+      display: inline-block;
+      // end options
+      
+      @include media($medium-screen-up) {
+        display: none;
+      }
+    }
+  }
+  
+  th {
+    vertical-align: bottom;
+    font-weight: bold;
+  }
+
+  th, td {
+    text-align: left;
+    padding: $small-spacing 0;
+    
+    @include media($medium-screen-up) {
+      display: table-cell;
+      position: static;
+      padding: .25em .5em;
+      
+      &:first-child {
+        padding-left: 0;
+      }
+      
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+
+  }
+}
+
+// presentational styling
+/*
+table {
+  background: #34495E;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+  tr {
+    border-color: lighten(#34495E, 10%);
+  }
+  th, td {
+    margin: .5em 1em;
+    @media (min-width: $breakpoint-alpha) { 
+      padding: 1em !important; 
+    }
+  }
+  th, td:before {
+    color: #dd5;
+  }
+}
+*/
+
