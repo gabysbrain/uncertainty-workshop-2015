@@ -1,0 +1,17 @@
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+.schedule {
+
+  tr.current-talk {
+    &:before {
+      //@extend .fa-angle-right;
+      //font-family: FontAwesome;
+      //content: "\f105";
+      //content: <i class='fa fa-angle-right'></i>;
+      //margin-left: -2em;
+    }
+  }
+}
+

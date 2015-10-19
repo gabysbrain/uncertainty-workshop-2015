@@ -1,5 +1,8 @@
 
 
+/*
+  note: this styles for mobile-first then converts to tables on large screens
+*/
 table {
   @include font-feature-settings("kern", "liga", "tnum");
   margin: $small-spacing 0;
