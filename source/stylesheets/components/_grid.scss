@@ -11,17 +11,15 @@ header.navigation {
   @include span-columns(12);
 }
 
-section.sidebar {
+.sidebar {
   @include media($medium-screen-up) {
     @include span-columns(4);
-    @include shift(8);
   }
 }
 
-section.main {
+section.main article {
   @include media($medium-screen-up) {
     @include span-columns(8);
-    @include shift(-12);
   }
 }
 

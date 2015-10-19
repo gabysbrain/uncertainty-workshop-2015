@@ -27,7 +27,9 @@
         </div>
       </div>
     </header>
-    <section class="sidebar">
+    <section class="main" id="main">
+      <%=yield%>
+    <aside class="sidebar">
       <div id="vis-logo">
         Located at
         <% link_to 'http://ieeevis.org' do %>
@@ -53,9 +55,7 @@
         <h1>Contact</h1>
         <%= mail_to 'kpotter@uoregon.edu' %>
       </div>
-    </section>
-    <section class="main" id="main">
-      <%=yield%>
+    </aside>
     </section>
     <footer>
       <!-- nothing here yet -->
