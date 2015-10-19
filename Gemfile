@@ -34,4 +34,7 @@ source 'https://rails-assets.org' do
  
   # for the image browser thing
   gem 'rails-assets-slick.js'
+
+  # for date and time stuff
+  gem 'rails-assets-momentjs'
 end

@@ -25,5 +25,10 @@
 ul.important-dates {
   padding-left: 0;
   list-style-type: none;
+
+  .time-expired {
+    text-decoration: line-through;
+    color: $medium-gray;
+  }
 }
 

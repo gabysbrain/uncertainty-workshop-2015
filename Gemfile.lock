@@ -129,6 +129,7 @@ GEM
     rack-test (0.6.3)
       rack (>= 1.0)
     rails-assets-jquery (2.1.4)
+    rails-assets-momentjs (2.10.6)
     rails-assets-slick.js (1.5.5)
       rails-assets-jquery (>= 1.7)
     rb-fsevent (0.9.5)
@@ -171,6 +172,7 @@ DEPENDENCIES
   middleman-simple-thumbnailer
   neat
   rails-assets-jquery!
+  rails-assets-momentjs!
   rails-assets-slick.js!
   redcarpet
   tzinfo-data
