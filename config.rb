@@ -1,3 +1,7 @@
+require 'lib/vdmu_helpers'
+
+helpers VdmuHelpers
+
 ###
 # Page options, layouts, aliases and proxies
 ###

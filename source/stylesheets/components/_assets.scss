@@ -1,0 +1,31 @@
+
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+$asset-link-background: lighten($action-color, 40%);
+
+.asset-link {
+  @include badge($asset-link-background);
+}
+
+.slide-link {
+  @extend .asset-link;
+
+  &:before {
+    @extend .fa;
+    @extend .fa-desktop;
+    padding-right: 0.5em;
+  }
+}
+
+.submission-link {
+  @extend .asset-link;
+
+  &:before {
+    @extend .fa;
+    @extend .fa-file-text;
+    padding-right: 0.5em;
+  }
+
+}
+
